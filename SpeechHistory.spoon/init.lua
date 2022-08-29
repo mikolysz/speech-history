@@ -123,8 +123,8 @@ function SpeechHistory.stop()
     timer:stop()
     prevHotkey:disable()
     nextHotkey:disable()
-    firstHotkey:enable()
-    lastHotkey:enable()
+    firstHotkey:disable()
+    lastHotkey:disable()
 end
 
 return SpeechHistory
